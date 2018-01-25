@@ -106,7 +106,7 @@ class GameViewController: NSViewController
         
         
         let actionwait = SCNAction.wait(duration: 0.001)
-        let run = SCNAction.run {_ in
+        let run = SCNAction.run { _ in
             self.draw()
         }
         let moveSequence = SCNAction.sequence([actionwait, run])

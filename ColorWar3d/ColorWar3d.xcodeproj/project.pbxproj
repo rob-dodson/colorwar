@@ -20,7 +20,7 @@
 		AE1AEB1B201A248500EF216D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE1AEB1E201A248500EF216D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE1AEB20201A248500EF216D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE1AEB21201A248500EF216D /* CW.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CW.entitlements; sourceTree = "<group>"; };
+		AE1AEB21201A248500EF216D /* ColorWar3d.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ColorWar3d.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 		AE1AEB09201A248500EF216D = {
 			isa = PBXGroup;
 			children = (
-				AE1AEB14201A248500EF216D /* ColorWard3d */,
+				AE1AEB14201A248500EF216D /* ColorWar3d */,
 				AE1AEB13201A248500EF216D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,7 +50,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE1AEB14201A248500EF216D /* ColorWard3d */ = {
+		AE1AEB14201A248500EF216D /* ColorWar3d */ = {
 			isa = PBXGroup;
 			children = (
 				AE1AEB15201A248500EF216D /* AppDelegate.swift */,
@@ -58,9 +58,9 @@
 				AE1AEB1B201A248500EF216D /* Assets.xcassets */,
 				AE1AEB1D201A248500EF216D /* Main.storyboard */,
 				AE1AEB20201A248500EF216D /* Info.plist */,
-				AE1AEB21201A248500EF216D /* CW.entitlements */,
+				AE1AEB21201A248500EF216D /* ColorWar3d.entitlements */,
 			);
-			path = ColorWard3d;
+			path = ColorWar3d;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,8 +78,8 @@
 			);
 			dependencies = (
 			);
-			name = ColorWar;
-			productName = CW;
+			name = ColorWar3d;
+			productName = ColorWar3d;
 			productReference = AE1AEB12201A248500EF216D /* ColorWar.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE1AEB0D201A248500EF216D /* Build configuration list for PBXProject "ColorWar" */;
+			buildConfigurationList = AE1AEB0D201A248500EF216D /* Build configuration list for PBXProject "ColorWar3d" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -263,13 +263,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CW/CW.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ColorWar3d/ColorWar3d.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZYF5X8SV2F;
-				INFOPLIST_FILE = CW/Info.plist;
+				INFOPLIST_FILE = ColorWar3d/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Shy-Frog.FrogRadio.CW";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shy-Frog.FrogRadio.ColorWar3d";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -279,13 +279,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CW/CW.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ColorWar3d/ColorWar3d.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZYF5X8SV2F;
-				INFOPLIST_FILE = CW/Info.plist;
+				INFOPLIST_FILE = ColorWar3d/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Shy-Frog.FrogRadio.CW";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shy-Frog.FrogRadio.ColorWar3d";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -294,7 +294,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE1AEB0D201A248500EF216D /* Build configuration list for PBXProject "ColorWar" */ = {
+		AE1AEB0D201A248500EF216D /* Build configuration list for PBXProject "ColorWar3d" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE1AEB22201A248500EF216D /* Debug */,
