@@ -1,6 +1,6 @@
 # colorwar
 Colorwar 
 
-![Optional Text](../master/images/screenshort.png)
+![Screen Shot](https://github.com/dreadsword/colorwar/blob/master/Screen%20Shot%202018-01-25%20at%208.43.34%20PM.png)
 
 Graphics experiments
