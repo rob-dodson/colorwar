@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE1AEB12201A248500EF216D /* ColorWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1AEB12201A248500EF216D /* ColorWar3d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorWar3d.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1AEB15201A248500EF216D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE1AEB17201A248500EF216D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AE1AEB1B201A248500EF216D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		AE1AEB13201A248500EF216D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE1AEB12201A248500EF216D /* ColorWar.app */,
+				AE1AEB12201A248500EF216D /* ColorWar3d.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE1AEB11201A248500EF216D /* ColorWar */ = {
+		AE1AEB11201A248500EF216D /* ColorWar3d */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE1AEB24201A248500EF216D /* Build configuration list for PBXNativeTarget "ColorWar" */;
+			buildConfigurationList = AE1AEB24201A248500EF216D /* Build configuration list for PBXNativeTarget "ColorWar3d" */;
 			buildPhases = (
 				AE1AEB0E201A248500EF216D /* Sources */,
 				AE1AEB0F201A248500EF216D /* Frameworks */,
@@ -80,7 +80,7 @@
 			);
 			name = ColorWar3d;
 			productName = ColorWar3d;
-			productReference = AE1AEB12201A248500EF216D /* ColorWar.app */;
+			productReference = AE1AEB12201A248500EF216D /* ColorWar3d.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -89,6 +89,9 @@
 		AE1AEB0A201A248500EF216D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Robert Dodson";
@@ -96,6 +99,11 @@
 					AE1AEB11201A248500EF216D = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -112,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE1AEB11201A248500EF216D /* ColorWar */,
+				AE1AEB11201A248500EF216D /* ColorWar3d */,
 			);
 		};
 /* End PBXProject section */
@@ -185,6 +193,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZYF5X8SV2F;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -242,6 +251,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZYF5X8SV2F;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -264,13 +274,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ColorWar3d/ColorWar3d.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZYF5X8SV2F;
 				INFOPLIST_FILE = ColorWar3d/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/Swift",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Shy-Frog.FrogRadio.ColorWar3d";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -280,13 +296,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ColorWar3d/ColorWar3d.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZYF5X8SV2F;
 				INFOPLIST_FILE = ColorWar3d/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/Swift",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Shy-Frog.FrogRadio.ColorWar3d";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -303,7 +325,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE1AEB24201A248500EF216D /* Build configuration list for PBXNativeTarget "ColorWar" */ = {
+		AE1AEB24201A248500EF216D /* Build configuration list for PBXNativeTarget "ColorWar3d" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE1AEB25201A248500EF216D /* Debug */,
