@@ -8,3 +8,5 @@ Graphics experiments
 =================
 
 ColorWar3d is an XCode project using SceneKit.
+
+colorwar.js will run colorwar in a web page using HTML canvas element.
