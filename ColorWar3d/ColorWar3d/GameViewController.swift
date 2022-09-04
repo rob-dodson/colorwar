@@ -25,6 +25,7 @@ class GameViewController: NSViewController
     var numColors:Int = 256
     var scene:SCNScene?
     var timewait:Double = 0.001
+    var loopCount:Int = 30
     
     
     override func viewDidLoad()
@@ -183,7 +184,7 @@ class GameViewController: NSViewController
     //
     func draw()
     {
-        for _ in 1...10 // this loop count and the timewait setting above seem to make a smooth animation
+        for _ in 1...loopCount // this loop count and the timewait setting above seem to make a smooth animation
         {
             let x = Int(arc4random_uniform(UInt32(xcells)))
             let y = Int(arc4random_uniform(UInt32(ycells)))
